@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 @Scope(scopeName="prototype")
 public class JavaCatalog implements Catalog {
 
+//java catcode is using github
 	public JavaCatalog() {
 	    System.out.println("JavaCatalog()");
 	}
